@@ -17,7 +17,7 @@ If you wish to contribute or use this tool, you may clone or fork the repository
 
 You can also just contribute to the asset listing, you may create a pull request with the changes to files within [documents folders](/docs) file. Noted that for your change to be accepted, it must be verified and tested to see if the texture belongs to that certain character/block/item/etc.
 
-Every contribution is appreciated. Thank you for your time <3
+Every contribution is appreciated. Thank you for your time ❤️
 
 ## 🛠️ Setup
 
@@ -26,7 +26,7 @@ Every contribution is appreciated. Thank you for your time <3
 1. Since Resorep is a Java application, Java 8 or higher must be installed on your computer. If you don't have it installed, you can download it [from Java's official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. [Resorep](https://www.undertow.club/downloads/resorep.1254/) must be installed and ready to use on your computer.
 3. A copy of Minecraft: Story Mode Season 2 installed.
-4. Resorep must be configured properly. It should be able to extract the assets from the game. You can view this [video](https://www.youtube.com/watch?v=3JZ_D3ELwOQ). It will teach you how to use Resorep to extract the assets from Minecraft: Story Mode Season 2.
+4. Resorep must be configured properly. It should be able to extract the assets from the game. You can view this [video](https://youtu.be/h3VH2W-j8yI). It will teach you how to use Resorep to extract the assets from Minecraft: Story Mode Season 2.
 
 ### Installation
 1. Clone the repository into the directory where all your extracted assets are located (Where all files beginning with `DXGI*` are located). Default directory that Resorep extracts the assets to is `original`.
