@@ -1,3 +1,12 @@
+/** ARCHIVED
+ * @file scan.js
+ * @description Scans a directory for new files and logs the event and filename to the console.
+ * This is my first attempt at a node.js script to scan a directory for new files.
+ * Purely hardcoded, but gets the job done. And it doesn't tell me what assets file belongs to.
+ * If you want to run this, you'll may use `node scan.js` in the terminal.
+ *
+ */
+
 /* eslint-disable */
 fs = require('fs');
 os = require('child_process');
