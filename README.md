@@ -1,6 +1,6 @@
-# MCSM2 Assets Watcher
+# 🧰 MCSM2 Assets Watcher
 ---
-## Description
+## 🧾 Description
 This is a simple tool to watch for changes in the assets in the specified directory when using [Resorep](https://www.undertow.club/downloads/resorep.1254/) to extract the assets from the game. Specifically, this tool is currently designed to watch for changes in the assets in the game Minecraft: Story Mode Season 2.
 
 Resorep is a tool to replace the assets in the game with custom ones or to extract them from the game. When extracting the assets, it pump out the assets that it's hard to track of what's been extracted and what's characters / blocks / items / etc. does it belong to.
@@ -9,7 +9,7 @@ This tool will watch for changes while logging the changes in the console. In ad
 
 This list will be updated as the tool is updated. If you want to view the list, you can view [here](/docs/ep1-asset-listing.md). If you want to contribute to the list, you can view the [contribution](#contribution) section below.
 
-## Contribution
+## 👨‍🔧 Contribution
 
 If you wish to contribute or use this tool, you may clone or fork the repository and make changes to the code as you wish. Please follows the [setup](#setup) instructions below.
 
@@ -17,7 +17,7 @@ You can also just contribute to the asset listing, you may create a pull request
 
 Every contribution is appreciated. Thank you for your time <3
 
-## Setup
+## 🛠️ Setup
 
 ### Prerequisites
 
@@ -45,6 +45,16 @@ EXTENSIONS=
 3. Specified what directory to watch for changes in the `.env` file. The `WATCH_DIR` variable should be set to the directory where the assets are located. For example, if the assets are located in the `original` directory, then the `WATCH_DIR` should be set to `original`.
    1. Additonally, if you want to watch for changes in multiple directories, you can specify the directories in the `WATCH_DIR_LIST` variable. The directories should be separated by a comma. For example, `WATCH_DIR_LIST=original,original2,original3`.
    2. The `EXTENSIONS` variable should be set to the extensions of the files to watch for. For example, if you want to watch for changes in `.png` and `.jpg` files, then the `EXTENSIONS` should be set to `png,jpg`.
+
+4. Run the following command to install the dependencies:
+```bash
+npm / yarn / pnpm install # Whatever package manager you're using
+```
+
+5. Run the following command to start the watcher:
+```bash
+npm / yarn / pnpm dev # Whatever package manager you're using
+```
 
 ---
 
