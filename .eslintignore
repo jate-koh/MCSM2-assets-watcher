@@ -1,0 +1,6 @@
+rollup.config.mjs
+prettier.config.cjs
+.eslintrc.cjs
+.editorconfig
+dist/
+node_modules/

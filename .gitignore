@@ -1,0 +1,16 @@
+# All assets folders
+DXGI*/
+
+# Folders
+bin/
+node_modules/
+dist/
+
+# Env
+.env
+
+# Log
+*.log
+
+# Mac
+.DS_Store
